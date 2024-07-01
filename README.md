@@ -1,8 +1,10 @@
-# React + Vite
+<h2>About the project</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p><b>Cyphercoin</b> is a dynamic website designed to provide users with real-time information about various cryptocurrencies. By leveraging the Coingecko API, a renowned source for cryptocurrency data, Cyphercoin offers accurate and up-to-date details on cryptocurrency prices, market capitalization, trading volume, and other essential metrics. <br/>
+</p>
 
-Currently, two official plugins are available:
+<h3>Build with:</h3>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+» React JS <br>
+» CSS  <br>
+» Coingecko API <br>
