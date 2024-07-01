@@ -1,0 +1,111 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #3c3c3c;
+    padding: 20px 10%;
+    color: #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.navbar-bg{
+    background-color: rgb(16, 16, 16);
+    opacity: 0.9;
+}
+
+.navbar .logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}
+.rotate {
+    display: inline-block;
+    transition: transform 0.4s ease-in-out;
+} 
+.rotate:hover {
+    transform: rotateY(180deg);
+}
+  
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-weight: 600;
+}
+.navbar li:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background: linear-gradient(25deg,rgba(238,174,202,1) 30%, rgba(148,187,233,1) 100%);
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: max(1vw,15px);
+    margin-left: 20px;
+}
+.navbar select{
+    padding: 5px 8px;
+    background: transparent;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid white;
+}
+.navbar select:hover{
+    transform: scale(1.1);
+}
+.navbar option{
+    background-color: #09005c;
+    color: white;
+}
+.navbar button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #393939;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+.navbar button:hover{
+    transform: scale(1.1);
+}
+.navbar button img{
+    width: 13px;
+}
+
+@media (max-width: 900px){
+    .navbar{
+        padding: 20px 8%;
+    }
+    .navbar button{
+        gap: 8px;
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px){
+    .navbar{
+        padding: 20px 5%;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .navbar button{
+        width: 75px;
+    }
+    .navbar button img{
+        width: 12px;
+    }
+}

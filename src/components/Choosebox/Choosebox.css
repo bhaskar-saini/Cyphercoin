@@ -1,0 +1,36 @@
+.choose-box{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-box_img{
+    display: flex;
+    background-color: #2e3e54;
+    flex-shrink: 0;
+    padding: 15px;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.choose-box .service{
+    display: block;
+    color: whitesmoke;
+    font-size: 22px;
+    margin: 30px 0px 0px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 600;
+}
+.choose-box .explain{
+    display: block;
+    color: #6f7f90;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 8px 0px 0px;
+    text-align: center;
+    font-weight: 400;
+    white-space: normal;
+}
