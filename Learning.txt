@@ -1,0 +1,7 @@
+Learning:
+
+1. how to change values of inr usd eur by clicking on button
+2. Smooth scrolling
+3.animations
+4. paging
+5. data fetching from api calls
